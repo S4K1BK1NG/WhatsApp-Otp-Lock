@@ -39,7 +39,7 @@ def temp_ban_api(country_code, phone_number):
         response = requests.get(api_url)
         response.raise_for_status()  # Raise an exception for HTTP errors
         if response.status_code == 200:
-            return "\n[bold green] [94m[✓]Successfully done\n  [bold green]Completed..!!\n\n[bold green]Thank You For Use My Script!!\n Created By ALI!!\n"
+            return "\n[bold green] [94m[✓]Successfully done\n  [bold green]Completed..!!\n\n[bold green]Thank You For Use My Script!!\n Created By S4K1B!!\n"
 
         else:
             return "Not done"
